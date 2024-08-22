@@ -1,0 +1,6 @@
+services:
+  ton:
+    build: .
+    network_mode: host
+    volumes:
+      - ./myLocalTon:/root/myLocalTon:z
